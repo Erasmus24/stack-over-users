@@ -66,7 +66,7 @@ function App() {
         <div className="container">
         <div className="grid">
           {members.map((memberReg)=>
-          <MemberCard key={memberReg.id} {...memberReg}/>)}
+          <MemberCard key={memberReg.user_id} {...memberReg}/>)}
             </div>
     </div>
       ):(
